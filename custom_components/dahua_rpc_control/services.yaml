@@ -1,0 +1,11 @@
+set_video_analyse_type:
+  name: Set Video Analyse Type
+  description: Set Dahua VideoAnalyseGlobal Scene Type.
+  fields:
+    type:
+      name: Type
+      description: Scene type. Use blank for empty value, or Normal.
+      example: "Normal"
+      required: false
+      selector:
+        text:

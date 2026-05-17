@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Dahua/Lorex Camera",
+        "description": "Enter the IP address and credentials for your camera.",
+        "data": {
+          "host": "IP Address",
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "discovery_confirm": {
+        "title": "Discovered Dahua/Lorex Camera",
+        "description": "Do you want to add {name} ({ip}) to Home Assistant?",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured",
+      "invalid_discovery_info": "Invalid discovery information"
+    }
+  }
+}

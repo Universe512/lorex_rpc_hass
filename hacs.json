@@ -1,0 +1,7 @@
+{
+  "name": "Dahua and Lorex RPC Control",
+  "description": "Home Assistant integration for controlling Dahua and Lorex cameras via RPC protocols.",
+  "domain": "dahua_rpc_control",
+  "homeassistant": "2024.1.0",
+  "iot_class": "local_polling"
+}
